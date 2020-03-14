@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.planetario2020.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="Sistema solar"
         tools:layout="@layout/fragment_home">
 
         <action
@@ -36,13 +36,48 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.planetario2020.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-    <fragment
         android:id="@+id/planeta01Fragment"
         android:name="com.example.planetario2020.Planeta01Fragment"
-        android:label="fragment_planeta01"
+        android:label="Tierra"
         tools:layout="@layout/fragment_planeta01" />
+    <fragment
+        android:id="@+id/mercury_Fragment"
+        android:name="com.example.planetario2020.Mercury_Fragment"
+        android:label="Mercurio"
+        tools:layout="@layout/fragment_mercury_" />
+    <fragment
+        android:id="@+id/venusFragment"
+        android:name="com.example.planetario2020.VenusFragment"
+        android:label="Venus"
+        tools:layout="@layout/fragment_venus" />
+    <fragment
+        android:id="@+id/marteFragment"
+        android:name="com.example.planetario2020.MarteFragment"
+        android:label="Marte"
+        tools:layout="@layout/fragment_marte" />
+    <fragment
+        android:id="@+id/jupiterFragment"
+        android:name="com.example.planetario2020.JupiterFragment"
+        android:label="Jupiter"
+        tools:layout="@layout/fragment_jupiter" />
+    <fragment
+        android:id="@+id/saturnoFragment"
+        android:name="com.example.planetario2020.SaturnoFragment"
+        android:label="Saturno"
+        tools:layout="@layout/fragment_saturno2" />
+    <fragment
+        android:id="@+id/uranoFragment2"
+        android:name="com.example.planetario2020.UranoFragment"
+        android:label="Urano"
+        tools:layout="@layout/fragment_urano" />
+    <fragment
+        android:id="@+id/neptunoFragment"
+        android:name="com.example.planetario2020.NeptunoFragment"
+        android:label="Neptuno"
+        tools:layout="@layout/fragment_neptuno" />
+    <fragment
+        android:id="@+id/plutonFragment"
+        android:name="com.example.planetario2020.PlutonFragment"
+        android:label="Plutón"
+        tools:layout="@layout/fragment_pluton" />
 </navigation>

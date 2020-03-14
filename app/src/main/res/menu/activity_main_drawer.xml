@@ -6,19 +6,46 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/sistemai"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/mercury_Fragment"
+            android:icon="@drawable/mercurio3"
+            android:title="Mercurio"/>
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/venusFragment"
+            android:icon="@drawable/venus2"
+            android:title="venus" />
         <item
             android:id="@+id/planeta01Fragment"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="planeta01Fragment"/>
+            android:icon="@drawable/mundoi"
+            android:title="Tierra"/>
+        <item
+            android:id="@+id/marteFragment"
+            android:icon="@drawable/martei"
+            android:title="Marte"/>
+        <item
+            android:id="@+id/jupiterFragment"
+            android:icon="@drawable/jupiteri"
+            android:title="Jupiter"/>
+        <item
+            android:id="@+id/saturnoFragment"
+            android:icon="@drawable/saturnoi"
+            android:title="Saturno"/>
+        <item
+            android:id="@+id/uranoFragment2"
+            android:icon="@drawable/uranoi"
+            android:title="Urano"/>
+        <item
+            android:id="@+id/neptunoFragment"
+            android:icon="@drawable/neptunoi"
+            android:title="Neptuno"/>
+        <item
+            android:id="@+id/plutonFragment"
+            android:icon="@drawable/plutoni"
+            android:title="Plutón"/>
+
+
+
     </group>
 </menu>
