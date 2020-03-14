@@ -26,7 +26,7 @@
             android:title="Marte"/>
         <item
             android:id="@+id/jupiterFragment"
-            android:icon="@drawable/jupiteri"
+            android:icon="@drawable/jupiter2"
             android:title="Jupiter"/>
         <item
             android:id="@+id/saturnoFragment"
