@@ -1,5 +1,7 @@
 package com.example.planetario2020;
-
+/*
+ *Autor JAvier Leopoldo de la Llave Lorenzo
+ */
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
